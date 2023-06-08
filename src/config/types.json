@@ -1,0 +1,11 @@
+{
+  "Color": {
+    "_enum": ["Red", "Yellow", "Blue", "Green"]
+  },
+  "Collectible": {
+    "unique_id": "[u8; 16]",
+    "price": "Option<Balance>",
+    "color": "Color",
+    "owner": "AccountId"
+  }
+}
